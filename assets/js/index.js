@@ -1,5 +1,5 @@
 $(function () {
-    getUserInof()
+    getUserInfo()
 
     var layer = layui.layer
 
@@ -18,7 +18,7 @@ $(function () {
 })
 
 // 获取用户的基本信息
-function getUserInof() {
+function getUserInfo() {
     $.ajax({
         method: 'GET',
         url: '/my/userinfo',
